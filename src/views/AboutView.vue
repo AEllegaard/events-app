@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page and i love it</h1>
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
+
+<script>
+
+import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'AboutView',
+  components: {
+    HelloWorld
+  }
+}
+</script>
